@@ -1,0 +1,98 @@
+.trending-row-container{
+ padding-bottom: 10px;  
+}
+.trending-row-container > h2{
+    text-align: center;
+}
+.trending-img-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:5px;
+    /* overflow-x: hidden; */
+}
+.card{
+width: 17vw;
+height: 54vh;
+min-width: 250px;
+
+border-radius: 5px;
+box-shadow: rgb(14, 14, 16) 0px 50px 100px -20px, rgb(6, 6, 6) 0px 30px 60px -30px, rgb(10, 37, 64) 0px -2px 6px 0px inset;
+}
+ img{
+    width: 200px;
+    height: 300px;
+    margin-left: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    /* box-shadow: rgb(14, 14, 16) 0px 50px 100px -20px, rgb(6, 6, 6) 0px 30px 60px -30px, rgb(10, 37, 64) 0px -2px 6px 0px inset; */
+
+}
+img:hover{
+    position: relative;
+    width: 210px;
+    /* height: 310px; */
+    bottom: 10px;
+    box-shadow: rgb(14, 14, 16) 0px 50px 100px -20px, rgb(6, 6, 6) 0px 30px 60px -30px, rgb(10, 37, 64) 0px -2px 6px 0px inset;
+
+}
+.card > p{
+    position: relative;
+    text-align: center;
+    top: -15px;
+    color: white;
+}
+.card > .rating-container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -25px;
+}
+.prev{
+   
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 25px 18px 25px 18px;
+    border-radius: 50px;
+    font-size: 20px;
+    
+}
+.next{
+   
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 25px 18px 25px 18px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.next:active{
+    box-shadow: 5px 5px 2px gray;
+    position: relative;
+    top: -3px;
+    left: -3px;
+}
+.prev:active{
+    box-shadow: 5px 5px 2px gray;
+    position: relative;
+    top: -3px;
+    left: -3px;
+}
+.page-no{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.button-container{
+    padding: 10px;
+    height: 35px;
+    width: 15vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}

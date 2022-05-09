@@ -1,0 +1,39 @@
+nav{
+    background-color: rgba(5, 26, 107, 0.696);
+    position: fixed;
+    width: 100vw;
+    z-index: 10;
+    overflow: hidden;
+    
+
+}
+.logo h1{
+    margin-left: 5px;
+    color: whitesmoke;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation{
+    align-items: center;
+    /* background-color: rgba(230, 126, 6, 0.904);
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px; */
+}
+.navigation > span{
+    margin-right: 25px;
+    cursor: pointer;
+    font-weight: bold;   
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.logo1{
+    color: rgb(9, 200, 146);
+}
+.logo2{
+    color: rgb(239, 123, 15);
+}
